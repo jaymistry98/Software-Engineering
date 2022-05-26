@@ -1,0 +1,920 @@
+
+Test Case 1  		<error>
+   NumOFFiles :  Zero
+
+
+Test Case 2  		<single>
+   SourceSize :  Empty
+
+
+Test Case 3  		<error>
+   fileName :  Not present
+
+
+Test Case 4  		<single>
+   Whether the files specifies exist :  False
+
+
+Test Case 5  		<single>
+   SpaceAvaiableToCopytheNonExistingFiles :  No
+
+
+Test Case 6  		<single>
+   number of command line arguments and options :  Zero
+
+
+Test Case 7  		(Key = 2.2.2.1.1.1.2.1.1.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 8  		(Key = 2.2.2.1.1.1.2.1.1.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 9  		(Key = 2.2.2.1.1.1.2.1.1.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 10 		(Key = 2.2.2.1.1.1.2.1.1.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 11 		(Key = 2.2.2.1.1.1.2.1.2.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 12 		(Key = 2.2.2.1.1.1.2.1.2.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 13 		(Key = 2.2.2.1.1.1.2.1.2.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 14 		(Key = 2.2.2.1.1.1.2.1.2.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 15 		(Key = 2.2.2.1.1.1.2.2.1.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 16 		(Key = 2.2.2.1.1.1.2.2.1.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 17 		(Key = 2.2.2.1.1.1.2.2.1.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 18 		(Key = 2.2.2.1.1.1.2.2.1.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 19 		(Key = 2.2.2.1.1.1.2.2.2.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 20 		(Key = 2.2.2.1.1.1.2.2.2.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 21 		(Key = 2.2.2.1.1.1.2.2.2.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 22 		(Key = 2.2.2.1.1.1.2.2.2.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 23 		(Key = 2.2.2.1.2.1.2.1.1.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 24 		(Key = 2.2.2.1.2.1.2.1.1.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 25 		(Key = 2.2.2.1.2.1.2.1.1.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 26 		(Key = 2.2.2.1.2.1.2.1.1.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 27 		(Key = 2.2.2.1.2.1.2.1.2.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 28 		(Key = 2.2.2.1.2.1.2.1.2.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 29 		(Key = 2.2.2.1.2.1.2.1.2.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 30 		(Key = 2.2.2.1.2.1.2.1.2.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 31 		(Key = 2.2.2.1.2.1.2.2.1.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 32 		(Key = 2.2.2.1.2.1.2.2.1.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 33 		(Key = 2.2.2.1.2.1.2.2.1.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 34 		(Key = 2.2.2.1.2.1.2.2.1.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 35 		(Key = 2.2.2.1.2.1.2.2.2.1.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 36 		(Key = 2.2.2.1.2.1.2.2.2.1.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 37 		(Key = 2.2.2.1.2.1.2.2.2.2.1.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 38 		(Key = 2.2.2.1.2.1.2.2.2.2.2.)
+   NumOFFiles                                   :  One
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 39 		(Key = 3.2.2.1.1.1.2.1.1.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 40 		(Key = 3.2.2.1.1.1.2.1.1.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 41 		(Key = 3.2.2.1.1.1.2.1.1.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 42 		(Key = 3.2.2.1.1.1.2.1.1.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 43 		(Key = 3.2.2.1.1.1.2.1.2.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 44 		(Key = 3.2.2.1.1.1.2.1.2.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 45 		(Key = 3.2.2.1.1.1.2.1.2.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 46 		(Key = 3.2.2.1.1.1.2.1.2.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 47 		(Key = 3.2.2.1.1.1.2.2.1.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 48 		(Key = 3.2.2.1.1.1.2.2.1.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 49 		(Key = 3.2.2.1.1.1.2.2.1.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 50 		(Key = 3.2.2.1.1.1.2.2.1.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 51 		(Key = 3.2.2.1.1.1.2.2.2.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 52 		(Key = 3.2.2.1.1.1.2.2.2.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 53 		(Key = 3.2.2.1.1.1.2.2.2.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 54 		(Key = 3.2.2.1.1.1.2.2.2.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Skip the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 55 		(Key = 3.2.2.1.2.1.2.1.1.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 56 		(Key = 3.2.2.1.2.1.2.1.1.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 57 		(Key = 3.2.2.1.2.1.2.1.1.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 58 		(Key = 3.2.2.1.2.1.2.1.1.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 59 		(Key = 3.2.2.1.2.1.2.1.2.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 60 		(Key = 3.2.2.1.2.1.2.1.2.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 61 		(Key = 3.2.2.1.2.1.2.1.2.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 62 		(Key = 3.2.2.1.2.1.2.1.2.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 63 		(Key = 3.2.2.1.2.1.2.2.1.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 64 		(Key = 3.2.2.1.2.1.2.2.1.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 65 		(Key = 3.2.2.1.2.1.2.2.1.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 66 		(Key = 3.2.2.1.2.1.2.2.1.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 67 		(Key = 3.2.2.1.2.1.2.2.2.1.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 68 		(Key = 3.2.2.1.2.1.2.2.2.1.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was entered
+   command line argument for verbose -v         :  -v was not entered
+
+
+Test Case 69 		(Key = 3.2.2.1.2.1.2.2.2.2.1.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was entered
+
+
+Test Case 70 		(Key = 3.2.2.1.2.1.2.2.2.2.2.)
+   NumOFFiles                                   :  Multiple
+   SourceSize                                   :  Not Empty
+   fileName                                     :  Present
+   Whether the files specifies exist            :  True
+   ExistingFile                                 :  Replace the file
+   SpaceAvaiableToCopytheNonExistingFiles       :  Yes
+   number of command line arguments and options :  More than one
+   command line argument for backup -b          :  -b was not entered
+   command line argument for force -f           :  -f was not entered
+   command line argument for recursive -r       :  -r was not entered
+   command line argument for verbose -v         :  -v was not entered
+
